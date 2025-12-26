@@ -1,3 +1,20 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "BBH_Bartle";
+  src: url("/public/assets/fonts/BBH_Bartle/BBHBartle-Regular.ttf");
+}
+
+@font-face {
+  font-family: "BBH_Bogle";
+  src: url("/public/assets/fonts/BBH_Bogle/BBHBogle-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("/public/assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf");
+}
+
 :root {
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -5,8 +22,18 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+h1 {
+  font-family: "BBH_Bartle", Times, serif;
+}
+
+h2 {
+  font-family: "BBH_Bogle", Times, serif;
+}
+
 body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
 }
