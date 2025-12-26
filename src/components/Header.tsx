@@ -1,4 +1,6 @@
 import { useEffect, useState } from "react";
+import { ListIcon, XIcon } from "lucide-react";
+import Button from "./Button";
 
 const navLinks = [
   { title: "home", hash: "#home" },
@@ -28,21 +30,23 @@ export default function Header() {
     >
       <h1 className="text-purple-600">Just Hats</h1>
       <span onClick={handleNav} className="lg:hidden">
-        =
+        <ListIcon />
       </span>
       <nav
         className={`${
           !showNav && "hidden"
-        } z-10 fixed w-1/2 h-full capitalize items-center flex-col space-y-4 right-0 top-0 bg-white lg:w-auto lg:bg-inherit lg:static lg:flex lg:flex-row lg:space-x-4 lg:space-y-0`}
+        } z-10 fixed w-1/2 h-full flex capitalize items-center flex-col pt-10 space-y-10 right-0 top-0 bg-white lg:w-auto lg:bg-inherit lg:static lg: py-auto lg:flex lg:flex-row lg:space-x-10 lg:space-y-0`}
       >
         <div className="flex items-center flex-col text-sm space-y-4 lg:flex-row lg:space-x-4 lg:space-y-0">
           <span onClick={handleNav} className="lg:hidden">
-            x
+            <XIcon />
           </span>
 
           {navLinks.map(({ title, hash }, index) => (
             <a
-              className="lg:hover:underline active:underline"
+              className={`${
+                scrollY < 101 ? "lg:text-white" : "lg:text-black"
+              } text-semibold lg:hover:underline lg:hover:text-purple-600 active:underline`}
               key={index}
               href={hash}
             >
@@ -50,7 +54,10 @@ export default function Header() {
             </a>
           ))}
         </div>
-        <button>Get Hats</button>
+        <Button className="hidden" variant={scrollY < 101 ? "white" : "black"}>
+          Get Hats
+        </Button>
+        <Button className="lg:hidden">Get Hats</Button>
       </nav>
     </header>
   );

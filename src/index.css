@@ -37,3 +37,36 @@ body {
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
 }
+
+button.black-variant {
+  box-shadow: 4px 4px black;
+  border: 1px solid black;
+  color: black;
+}
+
+button.black-variant:active {
+  box-shadow: 2px 2px black;
+}
+
+button.black-variant:active {
+  box-shadow: 2px 2px black;
+}
+
+button.white-variant {
+  box-shadow: 4px 4px white;
+  border: 1px solid white;
+  color: white;
+}
+
+button.white-variant:active {
+  box-shadow: 2px 2px white;
+}
+
+@media (hover: hover) {
+  button.white-variant:hover {
+    background-color: rgba(255, 255, 255, 0.224);
+  }
+  button.black-variant:hover {
+    background-color: rgba(0, 0, 0, 0.11);
+  }
+}
