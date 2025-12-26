@@ -29,7 +29,10 @@ export default function Header() {
       } w-full px-2 py-3 flex fixed z-10 items-center justify-between`}
     >
       <h1 className="text-purple-600">Just Hats</h1>
-      <span onClick={handleNav} className="lg:hidden">
+      <span
+        onClick={handleNav}
+        className={`${scrollY < 101 ? "text-white" : "text-black"} lg:hidden`}
+      >
         <ListIcon />
       </span>
       <nav

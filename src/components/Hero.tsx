@@ -3,6 +3,7 @@ import Button from "./Button";
 export default function Hero() {
   return (
     <section
+      id="home"
       style={{
         display: "flex",
         alignItems: "center",
