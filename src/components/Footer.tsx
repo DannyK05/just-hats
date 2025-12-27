@@ -1,4 +1,4 @@
-import { LocateIcon, MailIcon, MapPin, PhoneIcon } from "lucide-react";
+import { MailIcon, MapPin, PhoneIcon } from "lucide-react";
 
 export default function Footer() {
   return (
