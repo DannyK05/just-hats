@@ -4,7 +4,7 @@ export default function More() {
   return (
     <section
       id="more"
-      className="w-full flex items-start flex-col overflow-hidden space-y-10 min-h-screen px-4 pt-[100px] pb-5"
+      className="w-full flex items-center flex-col overflow-hidden space-y-10 min-h-screen px-4 pt-[100px] pb-5"
     >
       <h1 className="text-black text:4xl lg:text-6xl">
         We've got{" "}
@@ -206,7 +206,7 @@ export default function More() {
         </div>
       </div>
 
-      <h1 className="text-black text-center text:4xl lg:text-6xl">
+      <h2 className="text-black text-center text:4xl lg:text-6xl">
         These aren't
         <br />
         <span className="text-purple-600 text-5xl lg:text-7xl">
@@ -216,7 +216,7 @@ export default function More() {
         these are
         <span className="text-purple-600"> hats</span> for{" "}
         <span className="text-purple-600 text-5xl lg:text-7xl">you</span>
-      </h1>
+      </h2>
     </section>
   );
 }

@@ -2,6 +2,7 @@ import More from "./components/More";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Trending from "./components/Trending";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Hero />
         <More />
         <Trending />
+        <Footer />
       </main>
     </>
   );
