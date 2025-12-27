@@ -1,7 +1,7 @@
 import type { HtmlHTMLAttributes, ReactNode } from "react";
 import { twMerge } from "tailwind-merge";
 
-export type TButton = HtmlHTMLAttributes<HTMLButtonElement> & {
+type ButtonProps = HtmlHTMLAttributes<HTMLButtonElement> & {
   className?: string;
   children: ReactNode;
   variant?: "black" | "white";
@@ -12,7 +12,7 @@ export default function Button({
   children,
   variant = "black",
   ...rest
-}: TButton) {
+}: ButtonProps) {
   return (
     <button
       {...rest}

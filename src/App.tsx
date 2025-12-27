@@ -1,6 +1,7 @@
 import More from "./components/More";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
+import Trending from "./components/Trending";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         <Header />
         <Hero />
         <More />
+        <Trending />
       </main>
     </>
   );

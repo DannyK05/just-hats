@@ -183,7 +183,7 @@ export default function More() {
             />
           </div>
 
-          {extraCases.map(({ name, url, borderColor }, index) => (
+          {extraCases.map(({ name, url, borderColor, hatType }, index) => (
             <div key={index} className="w-full flex items-center px-2">
               <div
                 className={`relative w-40 h-50 overflow-hidden border border-10 ${borderColor} lg:w-80 lg:h-70 `}
@@ -195,6 +195,11 @@ export default function More() {
                   width={350}
                   height={250}
                 />
+                <div
+                  className={`h-7 w-25 border border-b-6 border-r-6 font-bold text-center ${borderColor}`}
+                >
+                  <p className="text-sm">{hatType}s</p>
+                </div>
               </div>
             </div>
           ))}
@@ -210,7 +215,7 @@ export default function More() {
         <br />
         these are
         <span className="text-purple-600"> hats</span> for{" "}
-        <span className="text-purple-600">you</span>
+        <span className="text-purple-600 text-5xl lg:text-7xl">you</span>
       </h1>
     </section>
   );
