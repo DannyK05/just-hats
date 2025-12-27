@@ -6,7 +6,7 @@ const navLinks = [
   { title: "home", hash: "#home" },
   { title: "more", hash: "#more" },
   { title: "trending", hash: "#trending" },
-  { title: "sales", hash: "#sales" },
+  { title: "contact", hash: "#contact" },
 ];
 
 export default function Header() {
