@@ -208,7 +208,7 @@ export default function More() {
           just hats
         </span>{" "}
         <br />
-        they are
+        these are
         <span className="text-purple-600"> hats</span> for{" "}
         <span className="text-purple-600">you</span>
       </h1>
