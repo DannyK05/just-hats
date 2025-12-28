@@ -17,7 +17,7 @@ export default function Trending() {
         ))}
       </div>
       <div className="flex cursor-pointer items-center space-x-1 lg:hover:text-purple-600 lg:hover:underline">
-        <p className="text-xl font-semibold capitalize">
+        <p className="text-lg font-semibold capitalize lg:text-xl">
           Check out more at our store
         </p>{" "}
         <ArrowRightCircle />

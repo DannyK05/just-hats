@@ -6,7 +6,7 @@ export default function More() {
       id="more"
       className="w-full flex items-center flex-col overflow-hidden space-y-10 min-h-screen px-4 pt-[100px] pb-5"
     >
-      <h1 className="text-black text:4xl lg:text-6xl">
+      <h1 className="text-black text-4xl lg:text-6xl">
         We've got{" "}
         <span className="text-purple-600 text-5xl lg:text-7xl">hats</span> for
         every <span className="text-purple-600">look</span> and{" "}
@@ -206,7 +206,7 @@ export default function More() {
         </div>
       </div>
 
-      <h2 className="text-black text-center text:4xl lg:text-6xl">
+      <h2 className="text-black text-center text-4xl lg:text-6xl">
         These aren't
         <br />
         <span className="text-purple-600 text-5xl lg:text-7xl">
