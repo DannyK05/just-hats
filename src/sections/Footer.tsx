@@ -1,3 +1,4 @@
+import { motion } from "motion/react";
 import { MailIcon, MapPin, PhoneIcon } from "lucide-react";
 
 export default function Footer() {
@@ -7,9 +8,15 @@ export default function Footer() {
       className="w-full flex items-center flex-col overflow-hidden border-t-10 border-dashed space-y-10 px-4 pt-[100px]"
     >
       <div className="w-full flex flex-col items-center space-y-2">
-        <h1 className="w-full text-purple-600 text-6xl text-center">
+        <motion.h1
+          initial={{ opacity: 0, y: 60 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1, ease: "easeOut" }}
+          viewport={{ once: true, amount: 0.2 }}
+          className="w-full text-purple-600 text-6xl text-center"
+        >
           Just Hats
-        </h1>
+        </motion.h1>
         <p className="text-2xl font-semibold">The hats for you</p>
 
         <div className="flex items-center flex-col space-y-2 lg:flex-row lg:space-x-4 lg:space-y-0">

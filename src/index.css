@@ -3,16 +3,19 @@
 @font-face {
   font-family: "BBH_Bartle";
   src: url("/public/assets/fonts/BBH_Bartle/BBHBartle-Regular.ttf");
+  font-display: swap;
 }
 
 @font-face {
   font-family: "BBH_Bogle";
   src: url("/public/assets/fonts/BBH_Bogle/BBHBogle-Regular.ttf");
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Montserrat";
   src: url("/public/assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf");
+  font-display: swap;
 }
 
 :root {
@@ -27,6 +30,14 @@ h1 {
 }
 
 h2 {
+  font-family: "BBH_Bogle", Times, serif;
+}
+
+.bartle {
+  font-family: "BBH_Bartle", Times, serif;
+}
+
+.bogle {
   font-family: "BBH_Bogle", Times, serif;
 }
 
