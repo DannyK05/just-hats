@@ -22,7 +22,7 @@ export default function More() {
 
             <img
               className="rounded-full mr-4 border-10 border-purple-600"
-              src="/assets/images/sun-rise.jpg"
+              src="/assets/images/sun-rise.webp"
               alt="Sun Rise"
               width={250}
               height={250}
@@ -38,7 +38,7 @@ export default function More() {
               <div className="relative border w-80 h-50 border-10 border-yellow-400">
                 <img
                   className="absolute left-[-40px] bottom-[-40px] z-5"
-                  src="/assets/images/bucket-hat3.png"
+                  src="/assets/images/bucket-hat3.webp"
                   alt="Bucket Hat"
                   width={250}
                   height={250}
@@ -66,7 +66,7 @@ export default function More() {
             <div className="relative overflow-hidden border w-50 h-50 border-10 border-yellow-400 lg:w-80 lg:h-70">
               <img
                 className="absolute left-0 bottom-[-20px] z-5"
-                src="/assets/images/bucket-model2.png"
+                src="/assets/images/bucket-model2.webp"
                 alt="Bucket Model"
                 width={500}
                 height={250}
@@ -86,7 +86,7 @@ export default function More() {
             <div className="relative overflow-hidden border w-80 h-80 border-10 border-yellow-400 lg:w-100 lg:h-100">
               <img
                 className="absolute left-0 bottom-[-20px] z-5"
-                src="/assets/images/bucket-model.png"
+                src="/assets/images/bucket-model.webp"
                 alt="Bucket Model"
                 width={500}
                 height={250}
@@ -106,7 +106,7 @@ export default function More() {
 
             <img
               className="rounded-full mr-4 border-10 border-purple-600"
-              src="/assets/images/winter.jpg"
+              src="/assets/images/winter.webp"
               alt="Winter"
               width={250}
               height={250}
@@ -122,7 +122,7 @@ export default function More() {
               <div className="relative border w-60 h-50 border-10 border-cyan-400">
                 <img
                   className="absolute left-[-40px] bottom-[-100px] z-5"
-                  src="/assets/images/beanie.png"
+                  src="/assets/images/beanie.webp"
                   alt="Beanie"
                   width={250}
                   height={250}
@@ -135,7 +135,7 @@ export default function More() {
             <div className="relative overflow-hidden border w-50 h-60 border-10 border-cyan-400 lg:w-80 lg:h-70">
               <img
                 className="absolute left-[0px] bottom-[-20px] z-5"
-                src="/assets/images/beanie-model.png"
+                src="/assets/images/beanie-model.webp"
                 alt="Beanie Model"
                 width={250}
                 height={250}
@@ -151,7 +151,7 @@ export default function More() {
             <div className="relative border w-50 h-60 border-10 border-cyan-400 lg:w-80 lg:h-70">
               <img
                 className="absolute left-[-30px] bottom-[-20px] z-5"
-                src="/assets/images/hemp-beanie.png"
+                src="/assets/images/hemp-beanie.webp"
                 alt="Hemp Beanie"
                 width={250}
                 height={250}

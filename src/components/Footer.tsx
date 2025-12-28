@@ -34,7 +34,7 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="lg:w-4/5">
+      <div className="flex flex-col items-start space-y-2 lg:w-4/5">
         <p>
           This is a fictional store, it doesn't actually exist and I own no
           rights to the images used, these were gotten online from brands like{" "}
@@ -67,7 +67,9 @@ export default function Footer() {
             Bobbs.
           </a>
         </p>
-        <p>Check them out if you are interested in the hats</p>
+        <p className="w-full lg:text-center">
+          Check them out if you are interested in the hats.
+        </p>
       </div>
 
       <p className="w-full text-center border-t py-2">
