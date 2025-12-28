@@ -1,4 +1,4 @@
-import Button from "./Button";
+import Button from "../components/Button";
 
 export default function Hero() {
   return (
@@ -8,7 +8,7 @@ export default function Hero() {
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
-        backgroundImage: "url(/assets/images/hero-bg.webp)",
+        backgroundImage: "url(/assets/images/others/hero-bg.webp)",
         height: "100vh",
         backgroundAttachment: "fixed",
         backgroundPosition: "center",
@@ -16,9 +16,9 @@ export default function Hero() {
         overflow: "hidden",
       }}
     >
-      <div className="w-full h-full relative text-white bg-linear-to-b from-black/25 backdrop-blur-40 flex items-center justify-center">
+      <div className="w-full h-full relative flex items-center justify-center text-white bg-linear-to-b from-black/25 backdrop-blur-40">
         <div className="w-full flex flex-col items-center space-y-8">
-          <h1 className="flex items-center flex-col space-y-1 w-full text-center">
+          <h1 className="w-full flex items-center flex-col space-y-1 text-center">
             <span className="text-center text-3xl lg:text-5xl">
               Hats,
               <br /> Hats,
@@ -36,7 +36,7 @@ export default function Hero() {
         </div>
         <img
           className=" absolute top-33 left-15 rotate-[-30deg] lg:top-16 lg:left-118 lg:block"
-          src="/assets/images/bucket-hat2.webp"
+          src="/assets/images/hats/bucket-hat2.webp"
           alt="Bucket Hat"
           width={100}
           height={100}
@@ -44,15 +44,15 @@ export default function Hero() {
 
         <img
           className="absolute top-69 left-32 lg:top-60 lg:left-76 lg:block"
-          src="/assets/images/top-hat.webp"
+          src="/assets/images/hats/top-hat.webp"
           alt="Top hat"
           width={100}
           height={100}
         />
 
         <img
-          className=" absolute bottom-71 right-14 rotate-[-20deg] lg:bottom-55 lg:right-51 lg:block"
-          src="/assets/images/snapback-hat2.webp"
+          className="absolute bottom-71 right-14 rotate-[-20deg] lg:bottom-55 lg:right-51 lg:block"
+          src="/assets/images/hats/snapback-hat2.webp"
           alt="Snapback"
           width={100}
           height={100}

@@ -1,5 +1,5 @@
-import type { HtmlHTMLAttributes, ReactNode } from "react";
 import { twMerge } from "tailwind-merge";
+import type { HtmlHTMLAttributes, ReactNode } from "react";
 
 type ButtonProps = HtmlHTMLAttributes<HTMLButtonElement> & {
   className?: string;
