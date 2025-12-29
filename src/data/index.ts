@@ -5,7 +5,7 @@ export const extraCases: TExtraCase[] = [
     name: "Snapback model",
     url: "/assets/images/models/snapback-model.webp",
     borderColor: "border-red-500",
-    hatType: "Snapback",
+    hatType: "Baseball Hat",
   },
   {
     name: "Top Hat Model",

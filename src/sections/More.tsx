@@ -246,7 +246,7 @@ export default function More() {
       </div>
 
       <div className="w-full flex flex-col items-center space-y-6 mt-10 pt-4 border-t-10 border-dashed">
-        <div className="w-full grid grid-cols-2 gap-4 place-items-center lg:grid-cols-3 lg:gap-y-10 lg:gap-x-8">
+        <div className="w-full grid grid-cols-2 gap-2 place-items-center lg:grid-cols-3 lg:gap-y-10 lg:gap-x-8">
           <div className="w-full flex items-center flex-col space-y-6 col-span-2 mb-8 lg:space-y-0 lg:col-span-3 px-4 lg:justify-between lg:flex-row">
             <motion.h2
               initial={{ opacity: 0, y: 60 }}
@@ -280,20 +280,20 @@ export default function More() {
               transition={{ duration: 0.6, ease: "easeOut" }}
               viewport={{ once: true, amount: 0.4 }}
               key={index}
-              className="w-full flex items-center px-2"
+              className="group w-full flex items-center"
             >
               <div
-                className={`relative w-40 h-50 overflow-hidden border-10 ${borderColor} lg:w-80 lg:h-70 `}
+                className={`relative w-full h-80 overflow-hidden border-10 ${borderColor} cursor-pointer ease-out lg:w-80 lg:h-80`}
               >
                 <img
-                  className="absolute z-5 bottom-0 lg:bottom-[-80px]"
+                  className="absolute z-5 bottom-0 lg:bottom-[-90px] group-hover:bottom-[-80px] group-hover:z-0"
                   src={url}
                   alt={name}
                   width={350}
                   height={250}
                 />
                 <div
-                  className={`h-7 w-25 border-b-6 border-r-6 font-bold text-center ${borderColor}`}
+                  className={`h-7 w-30 border-b-6 border-r-6 font-bold text-center ${borderColor} group-hover:w-full`}
                 >
                   <p className="text-sm">{hatType}s</p>
                 </div>

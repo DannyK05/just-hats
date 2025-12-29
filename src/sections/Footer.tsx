@@ -43,11 +43,13 @@ export default function Footer() {
 
       <div className="flex flex-col items-start space-y-2 lg:w-3/5">
         <p>
-          This is a fictional store, it doesn't actually exist and I own no
-          rights to the images used, these were gotten online from brands like{" "}
+          This is a fictional store created for demonstration purposes. I do not
+          own the rights to the images used. All images were sourced online from
+          brands such as{" "}
           <a
             className="mr-1 font-semibold hover:underline"
             href="https://www.lockhatters.com"
+            target="_blank"
             rel="noopener"
           >
             Lockhatters,
@@ -55,6 +57,7 @@ export default function Footer() {
           <a
             className="mr-1 font-semibold hover:underline"
             href="https://www.gigipip.com/products/custom-trucker-hat-experience"
+            target="_blank"
             rel="noopener"
           >
             Gigi Pip,
@@ -62,6 +65,7 @@ export default function Footer() {
           <a
             className="mr-1 font-semibold hover:underline"
             href="https://saltandstraw.com/products/ampersand-beanie"
+            target="_blank"
             rel="noopener"
           >
             Salt & Straw,
@@ -69,20 +73,22 @@ export default function Footer() {
           <a
             className="mr-1 font-semibold hover:underline"
             href="https://bobbs.uk/"
+            target="_blank"
             rel="noopener"
           >
             Bobbs.
           </a>
         </p>
         <p className="w-full lg:text-center">
-          Check them out if you are interested in getting some hats.
+          Check them out if you are interested in getting a hat.
         </p>
       </div>
 
       <p className="w-full text-center border-t py-2">
         Made with 💖 by{" "}
         <a
-          className="hover:text-purple-600 hover:font-bold hover:underline"
+          className="font-semibold hover:text-purple-600 hover:font-bold hover:underline"
+          target="_blank"
           rel="noopener"
           href="https://github.com/DannyK05"
         >

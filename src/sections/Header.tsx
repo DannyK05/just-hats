@@ -48,8 +48,10 @@ export default function Header() {
           {navLinks.map(({ title, hash }, index) => (
             <a
               className={`${
-                scrollY < 101 ? "lg:text-white" : "lg:text-black"
-              } text-semibold lg:hover:underline lg:hover:text-purple-600 active:underline`}
+                scrollY < 101
+                  ? "lg:text-white lg:hover:underline"
+                  : "lg:text-black lg:hover:text-purple-600"
+              } font-semibold lg:hover:font-bold  active:underline`}
               key={index}
               href={hash}
             >
