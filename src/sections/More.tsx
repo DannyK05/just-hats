@@ -293,7 +293,7 @@ export default function More() {
                   height={250}
                 />
                 <div
-                  className={`h-7 w-30 border-b-6 border-r-6 font-bold text-center ${borderColor} group-hover:w-full`}
+                  className={`h-7 w-30 border-b-6 border-r-6 font-bold text-center ${borderColor} lg:group-hover:w-full`}
                 >
                   <p className="text-sm">{hatType}s</p>
                 </div>
