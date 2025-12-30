@@ -286,7 +286,7 @@ export default function More() {
                 className={`relative w-full h-80 overflow-hidden border-10 ${borderColor} cursor-pointer ease-out lg:w-80 lg:h-80`}
               >
                 <img
-                  className="absolute z-5 bottom-0 lg:bottom-[-90px] group-hover:bottom-[-80px] group-hover:z-0"
+                  className="absolute z-5 bottom-0 lg:bottom-[-90px] lg:group-hover:bottom-[-80px] group-hover:z-0"
                   src={url}
                   alt={name}
                   width={350}

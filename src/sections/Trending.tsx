@@ -1,7 +1,8 @@
 import { motion } from "motion/react";
 import { ArrowRightCircle } from "lucide-react";
-import { trendingHats } from "../data";
 import Card from "../components/Card";
+import { trendingHats } from "../data";
+
 
 export default function Trending() {
   return (
